@@ -20,11 +20,11 @@ function getClima() {
             pressao = data.main.pressure;
             $('#pressao').html(pressao + "hPa");
 
-            tempMax = data.main.temp_max;
-            $('#tempMax').html(tempMax + "º");
+            tempMax = data.main.temp_max - 273;
+            $('#tempMax').html(tempMax.toFixed(2).split('.') + "º");
 
-            tempMin = data.main.temp_min;
-            $('#tempMin').html(tempMin + "º");
+            tempMin = data.main.temp_min - 273;
+            $('#tempMin').html(tempMin.toFixed(2).split('.') + "º");
 
             velocidade = data.wind.speed;
             $('#velocidade').html(velocidade + "Km/h");
