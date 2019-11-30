@@ -33,6 +33,23 @@ and open the template in the editor.
         <meta name="doc-class" content="Completed" /> 
         <meta name="reply-to" content="gabipuhler@gmail.com"/>
 
+        <!-- Tags Para rede social Facebook -->
+        <meta property="og:url" content="https://gabi-clima-senai.herokuapp.com" />
+        <meta property="og:locale" content="pt_BR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Informações climáticas - Gabi Pühler" />
+        <meta property="og:title" content="Informações climáticas - Gabi Pühler" />
+        <meta property="og:description" content="Site de informações climáticas de Brusque. Desenvolvido por Gabriele Pühler" />
+        <meta property="og:image" content="https://gabi-clima-senai.herokuapp.com/img/exemplos/por.png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="120" />
+        <meta property="fb:app_id" content="" />
+
+        <!-- Tags Para rede social Twitter -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:description" content="Site de informações climáticas de Brusque. Desenvolvido por Gabriele Pühler" />
+        <meta name="twitter:title" content="Informações climáticas - Gabi Pühler" />
+
     </head>
 
 
