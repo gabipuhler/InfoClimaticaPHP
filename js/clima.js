@@ -14,11 +14,11 @@ function getClima() {
             descricao = traduzirDescricao(data.weather[0].description);
             $('#situacao').html(descricao);
 
-            umidade = data.main.humidity;
-            $('#umidade').html(umidade + "%");
-
             pressao = data.main.pressure;
             $('#pressao').html(pressao + "hPa");
+            
+            umidade = data.main.humidity;
+            $('#umidade').html(umidade + "%");
 
             tempMax = data.main.temp_max - 273;
             $('#tempMax').html(tempMax.toFixed(2).split('.') + "º");
