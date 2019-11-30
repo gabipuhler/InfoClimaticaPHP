@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Clima - Gabi Pühler</title>
+        <title>Informações climáticas - Gabi Pühler</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,6 +14,24 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="js/clima.js"></script>
+
+        <!-- Tags Gerais -->
+        <meta NAME="DESCRIPTION" CONTENT="Site de informações climáticas de Brusque. Desenvolvido por Gabriele Pühler"/>
+        <meta NAME="ABSTRACT" CONTENT="Informações climáticas"/>
+        <meta name="keywords" content="clima, tempo, umidade, temperatura em brusque, temperatura, tempo para brusque, clima de brusque,
+              temperatura minima de brusque, temperatura maxima de brusque, previsão do tempo de brusque, brusque, temperatura do municipio, 
+              velocidade do vento, velocidade do vento em brusque, informações de brusque, umidade do ar em brusque, nascer do sol em brusque,
+              por do sol em brusque, previsão do tempo"/>
+        <meta NAME="title" CONTENT="Informações climáticas - Gabi Pühler" />
+        <meta NAME="identifier-url" content="https://gabi-clima-senai.herokuapp.com" />
+        <meta NAME="author" content="Gabriele Pühler" />
+        <meta NAME="ROBOTS" CONTENT="All" />
+        <meta NAME="RATING" CONTENT="general" />
+        <meta NAME="DISTRIBUTION" CONTENT="global" />
+        <meta NAME="LANGUAGE" CONTENT="pt-br" />
+        <meta name="content-language" content="portuguese" />
+        <meta name="doc-class" content="Completed" /> 
+        <meta name="reply-to" content="gabipuhler@gmail.com"/>
 
     </head>
 
@@ -59,10 +77,6 @@ and open the template in the editor.
                             </center>
 
                         </div>
-
-
-
-
 
                         <div class="col py-3 px-lg-5" style="background-color:rgb(23, 178, 255)">
                             <h2 style="color:MidnightBlue">Temperatura Máxima </h2>
